@@ -24,5 +24,3 @@ npm run lint && (
  echo 'Run npm run lint, add changes and try commit again.';
  false;
 )
-
-
