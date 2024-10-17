@@ -360,9 +360,6 @@
     }
 
     .img-container {
-      // align-items: center;
-      // display: flex;
-      // justify-content: center;
       width: 100%;
 
       @media (min-width: 320px) {
@@ -374,6 +371,7 @@
       }
 
       .img-stack {
+        padding-left: 4em;
         position: relative;
         width: 100%;
 
@@ -430,13 +428,13 @@
           z-index: 99;
 
           @media (min-width: 320px) {
-            margin-left: 15em;
+            margin-left: 12em;
             margin-top: -4em; 
             width: 40%;
           }
           
           @media (min-width: 768px) {
-            margin-left: 15em;
+            margin-left: 13em;
             margin-top: -4em; 
             width: 40%;
           }
